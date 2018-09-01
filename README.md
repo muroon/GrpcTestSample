@@ -14,7 +14,7 @@ This is gRPC test samples which get the throughput.
 |REST API (Json)  |Json  |Go  |C#  |[JsonUtility](https://docs.unity3d.com/ScriptReference/JsonUtility.html)  |
 
 There are four RPC types of gRPC.
-[Here] (https://grpc.io/docs/guides/concepts.html) is easy to understand.
+[Here](https://grpc.io/docs/guides/concepts.html) is easy to understand.
 
 Among them, Unary RPC for sending and receiving streams here,
 Bidirectional streaming RPC that uses HTTP / 2 streams and can transmit and receive multiple times,
