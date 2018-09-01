@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package proto.data.rest;
+
+message RequestMessage {
+    string content = 1;
+}
+
+message ResponseMessage {
+    string content = 1;
+}

@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a sample whchi use grpc in Unity.
+This is a sample which use grpc in Unity.
 
 ## Included
 

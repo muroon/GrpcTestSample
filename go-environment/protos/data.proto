@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package proto.data;
+
+service DataManager{
+    rpc UnaryTest (RequestMessage) returns (ResponseMessage) {}
+    //rpc ServerStreamTest (RequestMessage) returns (stream ResponseMessage) {}
+    //rpc ClientStreamTest (stream RequestMessage) returns (ResponseMessage) {}
+    rpc BiStreamTest (stream RequestMessage) returns (stream ResponseMessage) {}
+}
+
+message RequestMessage {
+    string content = 1;
+}
+
+message ResponseMessage {
+    string content = 1;
+}
+
+
